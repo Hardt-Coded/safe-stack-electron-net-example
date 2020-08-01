@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "fake-cli": {
+      "version": "5.19.1",
+      "commands": [
+        "fake"
+      ]
+    },
+    "paket": {
+      "version": "5.249.0",
+      "commands": [
+        "paket"
+      ]
+    },
+    "electronnet.cli": {
+      "version": "9.31.2",
+      "commands": [
+        "electronize"
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+    "executable": "Server",
+    "splashscreen": {
+        "imageFile": "/about@2x.png"
+    },
+    "name": "safeStackElectron",
+    "author": "Me",
+    "environment": "Production",
+    "build": {
+        "appId": "com.safe.stack.electron.app",
+        "productName": "Awesome Product",
+        "copyright": "Copyright Hardt IT-Solutions © 2020",
+        "buildVersion": "1.0.0",
+        "compression": "maximum",
+        "directories": {
+            "output": "../../../bin/Desktop"
+        },
+        "extraResources": [
+            {
+                "from": "./bin",
+                "to": "bin",
+                "filter": [ "**/*" ]
+            }
+        ],
+        "files": [
+            {
+                "from": "./ElectronHostHook/node_modules",
+                "to": "ElectronHostHook/node_modules",
+                "filter": [ "**/*" ]
+            },
+            "**/*"
+        ]
+    }
+}

@@ -1,0 +1,6 @@
+group Server
+    FSharp.Core
+    Saturn
+    Thoth.Json.Giraffe
+    ElectronNET.API
+
